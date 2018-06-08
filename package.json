@@ -1,0 +1,13 @@
+{
+  "name": "node-committer",
+  "version": "1.0.0",
+  "description": "Generate git commit",
+  "main": "main.js",
+  "dependencies": {
+    "date-holidays": "^1.2.5",
+    "inquirer": "^6.0.0",
+    "moment": "^2.22.2"
+  },
+  "author": "zowiegong",
+  "license": "MIT"
+}
