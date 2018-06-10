@@ -15,11 +15,4 @@ After :sparkles: :sparkles: :sparkles:
 
 # Usage
 
-You need to delete the `.git` directory before generating the commit.
-
-在生成 commit 之前需要删除 `.git` 目录。
-
-1. `git clone https://github.com/zowiegong/node-committer.git`
-2. `rm -fr .git`
-3. `git init && git add . && git commit -m 'init'`
-4. `npm install && node main.js`
+TODO ...

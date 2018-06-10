@@ -1,13 +1,16 @@
 {
-  "name": "node-committer",
-  "version": "1.0.0",
-  "description": "Generate git commit",
-  "main": "main.js",
-  "dependencies": {
-    "date-holidays": "^1.2.5",
-    "inquirer": "^6.0.0",
-    "moment": "^2.22.2"
-  },
-  "author": "zowiegong",
-  "license": "MIT"
+    "name": "git-committer",
+    "version": "1.0.0",
+    "description": "A node.js script to generate git commit. 一个用来生成 git commit 的 node.js 脚本",
+    "repository": "https://github.com/zowiegong/node-committer",
+    "dependencies": {
+        "commander": "^2.15.1",
+        "date-holidays": "^1.2.5",
+        "moment": "^2.22.2"
+    },
+    "bin": {
+        "git-committer": "./bin/git-committer.js"
+    },
+    "author": "zowiegong",
+    "license": "MIT"
 }
