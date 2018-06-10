@@ -1,7 +1,7 @@
 {
     "name": "git-committer",
-    "version": "1.0.0",
-    "description": "A node.js script to generate git commit. 一个用来生成 git commit 的 node.js 脚本",
+    "version": "1.0.1",
+    "description": "A node.js script to generate a git commit commit record. 一个用来生成 git commit 提交记录的 node.js 脚本.",
     "repository": "https://github.com/zowiegong/node-committer",
     "dependencies": {
         "commander": "^2.15.1",
